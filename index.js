@@ -23,7 +23,7 @@ console.log(`Your Todo is here ${todo}`);
 let delTodo = await inquirer.prompt([{
         name: 'delete',
         type: 'confirm',
-        message: "Do you want to delete the last item",
+        message: "Do you want to delete the last item?",
         default: 'false'
     }]);
 if (delTodo.delete === true) {
