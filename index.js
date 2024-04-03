@@ -11,7 +11,7 @@ while (condition) {
         {
             name: "addmore",
             type: "confirm",
-            message: "whould you like to add more?",
+            message: "whould you like to add more??",
             default: "false"
         },
     ]);
