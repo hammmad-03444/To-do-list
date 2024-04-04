@@ -54,7 +54,7 @@ if ( delTodo.delete===true){
             type:"input",
             message:"What you want to add  in your Todo?"
         }])
-        //putting the new item in the list on the place of replace item
+        //putting the new item in the list on the place of replace  item
         todo[repRem]=newInp.item
 
         console.log(`Your Todo is here ${todo}`)
